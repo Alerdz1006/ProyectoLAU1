@@ -43,27 +43,23 @@ El código (`Proyecto6.py`) está organizado en clases para la separación de la
 
 Instala la librería de temas ejecutando:
 
-```bash
 pip install ttkthemes
-### Cómo ejecutar
-Guarda el código en un archivo llamado Proyecto6.py.
+## Cómo ejecutar
+* Guarda el código en un archivo llamado Proyecto6.py.
 
-Abre una terminal en la carpeta donde guardaste el archivo.
+* Abre una terminal en la carpeta donde guardaste el archivo.
 
-Ejecuta la aplicación:
+* Ejecuta la aplicación:
 
-Bash
+## Uso del Sistema
+* Editar Red: Utiliza la pestaña "Editar Red" para:
 
-python Proyecto6.py
-🖱️ Uso del Sistema
-Editar Red: Utiliza la pestaña "Editar Red" para:
+- Agregar o eliminar Juntas (nodos).
 
-Agregar o eliminar Juntas (nodos).
+- Establecer la Capacidad de las Tuberías (aristas). Una capacidad de 0 elimina la tubería.
 
-Establecer la Capacidad de las Tuberías (aristas). Una capacidad de 0 elimina la tubería.
+- Definir S y T: Ingresa los IDs de la Planta (S) y el Destino (T) en el panel superior.
 
-Definir S y T: Ingresa los IDs de la Planta (S) y el Destino (T) en el panel superior.
+- Ejecutar Algoritmo: Haz clic en "Ejecutar Ford-Fulkerson (DFS)" o "Ejecutar Edmonds-Karp (BFS)" para ver el resultado.
 
-Ejecutar Algoritmo: Haz clic en "Ejecutar Ford-Fulkerson (DFS)" o "Ejecutar Edmonds-Karp (BFS)" para ver el resultado.
-
-Resultados: Consulta el flujo máximo total en el Canvas y el detalle de los flujos por arista en la pestaña "Resultados".
+- Resultados: Consulta el flujo máximo total en el Canvas y el detalle de los flujos por arista en la pestaña "Resultados".
