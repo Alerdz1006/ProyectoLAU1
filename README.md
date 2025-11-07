@@ -10,7 +10,7 @@ El sistema representa una "red de tuberías", donde las **juntas** son los nodos
 
 ---
 
-## 🌟 Características principales
+## Características principales
 
 * **Algoritmos de Flujo Máximo:** Implementación de **Ford-Fulkerson** (vía DFS) y **Edmonds-Karp** (vía BFS) para encontrar el flujo máximo entre la fuente (**S**) y el sumidero (**T**).
 * **Interfaz Gráfica (GUI):** Desarrollada con **Tkinter** y mejorada con `ttkthemes`. Permite la interacción completa para definir la red y ejecutar los algoritmos.
@@ -20,7 +20,7 @@ El sistema representa una "red de tuberías", donde las **juntas** son los nodos
 
 ---
 
-## ⚙️ Estructura del Código
+## Estructura del Código
 
 El código (`Proyecto6.py`) está organizado en clases para la separación de la lógica del grafo y la interfaz gráfica.
 
@@ -31,7 +31,7 @@ El código (`Proyecto6.py`) está organizado en clases para la separación de la
 
 ---
 
-## 💻 Requisitos y Ejecución
+## Requisitos y Ejecución
 
 ### Requisitos
 
@@ -45,7 +45,7 @@ Instala la librería de temas ejecutando:
 
 ```bash
 pip install ttkthemes
-Cómo ejecutar
+### Cómo ejecutar
 Guarda el código en un archivo llamado Proyecto6.py.
 
 Abre una terminal en la carpeta donde guardaste el archivo.
