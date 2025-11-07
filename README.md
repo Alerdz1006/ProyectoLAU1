@@ -37,7 +37,7 @@ El código (`Proyecto6.py`) está organizado en clases para la separación de la
 
 * **Python 3.x**
 * Librería `tkinter` (Incluida con la mayoría de las distribuciones de Python).
-* Librería **`ttkthemes`** (Para el tema oscuro de la interfaz).
+* Librería **`ttkthemes`** (Para usar el tema oscuro de bootstrap).
 
 ### Instalación de dependencias
 
