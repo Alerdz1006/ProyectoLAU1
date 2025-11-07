@@ -751,13 +751,12 @@ class AppGrafo(ThemedTk):
                 x - R, y - R, x + R, y + R, 
                 fill="#BBBBBB", outline="#888888", width=3
             )
-            # 2. Dibuja el centro de color
+            
             self.canvas.create_oval(
                 x - R + 6, y - R + 6, x + R - 6, y + R - 6, 
                 fill=fill_color, outline="#555555"
             )
             
-            # 3. Dibuja el texto de la junta encima de todo
             self.canvas.create_text(x, y, text=str(nodo), font=("Arial", 12, "bold"), tags="nodo_label")
 
     # =====================================================================
@@ -936,4 +935,5 @@ class AppGrafo(ThemedTk):
 
 if __name__ == "__main__":
     app = AppGrafo()
+
     app.mainloop()
